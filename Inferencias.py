@@ -170,5 +170,7 @@ for target in ['PSI (-1 Ano)', 'D0 (-1 Ano)', 'IRI-convertido (-1 Ano)', 'ATRMED
     plt.legend()
     plt.grid(True)
     plt.xticks(range(0, max(df['Idade'])+1, 1))
+    plt.tight_layout()   # Remove excess white margins
     plt.savefig(target.replace(" (-1 Ano)", "") + '.jpg')
+    plt.close()
 
