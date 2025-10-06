@@ -1,0 +1,46 @@
+
+--------------------------------------------------------------------------
+INICIO: 2025-09-08 23:11:57
+RANGE DE VALORES/LETRAS DOS DADOS DE ENTRADA:
+    Idade (Dados): ('0.2', '53.375')
+    PSI (-1 Ano): ('1.88514', '4.526886')
+    D0 (-1 Ano): ('5.826081', '158.9')
+    IRI-convertido (-1 Ano): ('0.0', '5.784615384615384')
+    PSI (-2 Ano): ('1.965641', '4.53')
+    IRI-convertido (-2 Ano): ('0.06153846153846154', '5.746153846153846')
+    H1ORIGCM (ESTR): ('2.0', '37.0')
+    H2CM (ESTR): ('4.0', '50.0')
+    CBRSL (ESTR): ('0', '21')
+    NAASHTO acumulado: ('65220.60583412817', '13509116.236549601')
+    RESUMO_REFOR.: ('0.0', '10.7')
+    RESUMO_CORTE: ('0.0', '4.0')
+    RESUMO_PERCTARE: ('0.0', '200.0')
+    RESUMO (-1 Ano)_REFOR.: ('0.0', '16.0')
+    RESUMO (-1 Ano)_CORTE: ('0.0', '4.0')
+    RESUMO (-1 Ano)_PERCTARE: ('0.0', '300.0')
+    VAR. ALVO --> IDS Filtrado (Dados): ('0.0', '89.5')
+
+ANALISE DE DADOS BRUTOS:
+Colunas com potencial multicolinearidade: ['Idade (Dados)', 'PSI (-1 Ano)', 'D0 (-1 Ano)', 'IRI-convertido (-1 Ano)', 'PSI (-2 Ano)', 'IRI-convertido (-2 Ano)', 'H1ORIGCM (ESTR)', 'H2CM (ESTR)', 'CBRSL (ESTR)', 'NAASHTO acumulado', 'RESUMO_REFOR.', 'RESUMO_CORTE', 'RESUMO_PERCTARE', 'RESUMO (-1 Ano)_REFOR.', 'RESUMO (-1 Ano)_CORTE', 'RESUMO (-1 Ano)_PERCTARE']
+
+NOMENCLATURA E ORDEM DAS ENTRADA: ['Idade (Dados)', 'PSI (-1 Ano)', 'D0 (-1 Ano)', 'IRI-convertido (-1 Ano)', 'PSI (-2 Ano)', 'IRI-convertido (-2 Ano)', 'H1ORIGCM (ESTR)', 'H2CM (ESTR)', 'CBRSL (ESTR)', 'NAASHTO acumulado', 'RESUMO_REFOR.', 'RESUMO_CORTE', 'RESUMO_PERCTARE', 'RESUMO (-1 Ano)_REFOR.', 'RESUMO (-1 Ano)_CORTE', 'RESUMO (-1 Ano)_PERCTARE']
+Linhas X Colunas (Pre oversampling): (2842, 16)
+Linhas X Colunas (Com PCA + Split): (2253, 16)
+Fim normalizacao/Inicio do treinamento: 2025-09-08 23:11:57
+Best Params: [2.27610286e-02 5.36065194e+00 5.71904034e-01 5.18737153e-01
+ 4.67846781e+02 5.17286947e-01]
+
+Training set metrics:
+  - Mean Squared Error: 195.021
+  - Mean Squared Error COV: 34.695
+  - Reability: 65.305
+Model set metrics:
+  - R^2 Score: 0.731
+  - Mean Absolute Error: 6.594
+  - Mean Squared Error: 95.167
+  - Root Mean Squared Error: 9.755
+  - Desv. Pad.: 9.748
+
+FIM: 2025-09-08 23:33:07
+TEMPO DE DURACAO: 0:21:09.864363
+

@@ -1,0 +1,46 @@
+
+--------------------------------------------------------------------------
+INICIO: 2025-06-09 21:10:37
+RANGE DE VALORES/LETRAS DOS DADOS DE ENTRADA:
+    Idade (Dados): ('0.08337402', '53.375')
+    PSI (-1 Ano): ('1.536883', '4.53')
+    IDS (-1 Ano): ('0.0', '200.0')
+    D0 (-1 Ano): ('5.801119', '198.6864')
+    IRI-convertido (-1 Ano): ('0.0', '5.784615384615384')
+    H1ORIGCM (ESTR): ('2.0', '45.0')
+    H2CM (ESTR): ('4.0', '74.5')
+    CBRSL (ESTR): ('0', '50')
+    NAASHTO acumulado: ('0.0', '13509116.236549601')
+    RESUMO_REFOR.: ('0.0', '16.0')
+    RESUMO_CORTE: ('0.0', '5.0')
+    RESUMO_PERCTARE: ('0.0', '200.0')
+    RESUMO (-1 Ano)_REFOR.: ('0.0', '16.0')
+    RESUMO (-1 Ano)_CORTE: ('0.0', '9.0')
+    RESUMO (-1 Ano)_PERCTARE: ('0.0', '300.0')
+    VAR. ALVO --> IRI Filtrado (Dados): ('0.5846153846153845', '5.892307692307691')
+
+ANALISE DE DADOS BRUTOS:
+Colunas com potencial multicolinearidade: ['Idade (Dados)', 'PSI (-1 Ano)', 'IDS (-1 Ano)', 'D0 (-1 Ano)', 'IRI-convertido (-1 Ano)', 'H1ORIGCM (ESTR)', 'H2CM (ESTR)', 'CBRSL (ESTR)', 'NAASHTO acumulado', 'RESUMO_REFOR.', 'RESUMO_CORTE', 'RESUMO_PERCTARE', 'RESUMO (-1 Ano)_REFOR.', 'RESUMO (-1 Ano)_CORTE', 'RESUMO (-1 Ano)_PERCTARE']
+
+NOMENCLATURA E ORDEM DAS ENTRADA: ['Idade (Dados)', 'PSI (-1 Ano)', 'IDS (-1 Ano)', 'D0 (-1 Ano)', 'IRI-convertido (-1 Ano)', 'H1ORIGCM (ESTR)', 'H2CM (ESTR)', 'CBRSL (ESTR)', 'NAASHTO acumulado', 'RESUMO_REFOR.', 'RESUMO_CORTE', 'RESUMO_PERCTARE', 'RESUMO (-1 Ano)_REFOR.', 'RESUMO (-1 Ano)_CORTE', 'RESUMO (-1 Ano)_PERCTARE']
+Linhas X Colunas (Pre oversampling): (5558, 15)
+Linhas X Colunas (Pos oversampling): (9008, 15)
+Linhas X Colunas (Com PCA + Split): (9008, 15)
+Fim normalizacao/Inicio do treinamento: 2025-06-09 21:10:37
+Best Params: [7.73483569e-02 6.60071886e+00 4.83019390e-01 4.21795753e-01
+ 3.82802058e+02 7.48343551e-01]
+
+Training set metrics:
+  - Mean Squared Error: 0.194
+  - Mean Squared Error COV: 30.762
+  - Reability: 69.238
+Model set metrics:
+  - R^2 Score: 0.792
+  - Mean Absolute Error: 0.238
+  - Mean Squared Error: 0.121
+  - Root Mean Squared Error: 0.348
+  - Desv. Pad.: 0.348
+
+FIM: 2025-06-09 21:31:48
+TEMPO DE DURACAO: 0:21:11.437662
+

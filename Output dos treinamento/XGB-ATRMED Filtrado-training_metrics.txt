@@ -1,0 +1,46 @@
+
+--------------------------------------------------------------------------
+INICIO: 2025-06-09 20:09:49
+RANGE DE VALORES/LETRAS DOS DADOS DE ENTRADA:
+    Idade (Dados): ('0.2', '42.6')
+    PSI (-1 Ano): ('1.88514', '4.526886')
+    D0 (-1 Ano): ('9.9', '134.8')
+    IRI-convertido (-1 Ano): ('0.5307692307692308', '5.784615384615384')
+    ATRMED (-1 Ano): ('0.05', '12.75')
+    H1ORIGCM (ESTR): ('2.0', '24.0')
+    H2CM (ESTR): ('8.0', '50.0')
+    CBRSL (ESTR): ('0', '0')
+    NAASHTO acumulado: ('85751.82174897799', '7933733.759957384')
+    RESUMO_REFOR.: ('0.0', '16.0')
+    RESUMO_CORTE: ('0.0', '4.0')
+    RESUMO_PERCTARE: ('0.0', '200.0')
+    RESUMO (-1 Ano)_REFOR.: ('0.0', '16.0')
+    RESUMO (-1 Ano)_CORTE: ('0.0', '9.0')
+    RESUMO (-1 Ano)_PERCTARE: ('0.0', '240.0')
+    VAR. ALVO --> ATRMED Filtrado: ('0.05', '11.2')
+
+ANALISE DE DADOS BRUTOS:
+Impossivel de calcular colunas com potencial multicolinearidade!
+
+NOMENCLATURA E ORDEM DAS ENTRADA: ['Idade (Dados)', 'PSI (-1 Ano)', 'D0 (-1 Ano)', 'IRI-convertido (-1 Ano)', 'ATRMED (-1 Ano)', 'H1ORIGCM (ESTR)', 'H2CM (ESTR)', 'CBRSL (ESTR)', 'NAASHTO acumulado', 'RESUMO_REFOR.', 'RESUMO_CORTE', 'RESUMO_PERCTARE', 'RESUMO (-1 Ano)_REFOR.', 'RESUMO (-1 Ano)_CORTE', 'RESUMO (-1 Ano)_PERCTARE']
+Linhas X Colunas (Pre oversampling): (2842, 15)
+Linhas X Colunas (Pos oversampling): (4517, 15)
+Linhas X Colunas (Com PCA + Split): (4517, 15)
+Fim normalizacao/Inicio do treinamento: 2025-06-09 20:09:50
+Best Params: [7.31032430e-02 6.61812566e+00 6.17191230e-01 7.34217797e-01
+ 4.46615425e+02 8.21324157e-01]
+
+Training set metrics:
+  - Mean Squared Error: 1.592
+  - Mean Squared Error COV: 39.816
+  - Reability: 60.184
+Model set metrics:
+  - R^2 Score: 0.802
+  - Mean Absolute Error: 0.698
+  - Mean Squared Error: 0.971
+  - Root Mean Squared Error: 0.985
+  - Desv. Pad.: 0.985
+
+FIM: 2025-06-09 20:28:34
+TEMPO DE DURACAO: 0:18:44.618196
+
