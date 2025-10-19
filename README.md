@@ -88,6 +88,11 @@ Master’s Dissertation – Pavement Engineering
 
 ---
 
+## How to cite
+Coldebella Camillo, V., & Brito, L. (2025). Development of flexible pavement performance prediction models for the states of RS and PR using artificial intelligence (1.0). Zenodo. https://doi.org/10.5281/zenodo.17281701
+
+---
+
 ## 🧱 License
 
 This project is distributed for academic and research purposes.
